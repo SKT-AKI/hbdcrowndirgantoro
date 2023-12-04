@@ -200,7 +200,7 @@ $('document').ready(function(){
 	$('#wish_message').click(function(){
 		 vw = $(window).width() / 2;
 
-		$('#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10, #b11, #b12, #b13, #b14, #b15').stop();
+		$('#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10, #b11, #b12, #b13, #b14, #b15, #b16, #b17, #b18').stop();
 		$('#b1').attr('id', 'a');
 		$('#b2').attr('id', 'b');
 		$('#b3').attr('id', 'c');
@@ -216,21 +216,27 @@ $('document').ready(function(){
 		$('#b13').attr('id', 'm');
 		$('#b14').attr('id', 'n');
 		$('#b15').attr('id', 'o');
-		$('#a').animate({top:140, left: vw - 550}, 500);  // C
-		$('#b').animate({top:140, left: vw - 450}, 500);  // R
-		$('#c').animate({top:140, left: vw - 350}, 500);  // O
-		$('#d').animate({top:140, left: vw - 250}, 500);  // W
-		$('#e').animate({top:140, left: vw - 150}, 500);  	// N
-		$('#f').animate({top:240, left: vw - 450}, 500);  // D
-		$('#g').animate({top:240, left: vw - 350}, 500);  // I
-		$('#h').animate({top:240, left: vw - 250}, 500);  // R
-		$('#i').animate({top:240, left: vw - 150}, 500);  // G
-		$('#j').animate({top:240, left: vw - 50}, 500);  // A
-		$('#k').animate({top:240, left: vw + 50}, 500);  // N
-		$('#l').animate({top:240, left: vw + 150}, 500);  // T
-		$('#m').animate({top:240, left: vw + 250}, 500);   // O
-		$('#n').animate({top:240, left: vw + 350}, 500);  	// R
-		$('#o').animate({top:240, left: vw + 450}, 500);  // O
+		$('#b16').attr('id', 'p');
+		$('#b17').attr('id', 'q');
+		$('#b18').attr('id', 'r');
+		$('#a').animate({top:140, left: vw - 550}, 500);  	// P
+		$('#b').animate({top:140, left: vw - 450}, 500);  	// A
+		$('#c').animate({top:140, left: vw - 350}, 500);  	// K
+		$('#d').animate({top:140, left: vw - 150}, 500);  	// C
+		$('#e').animate({top:140, left: vw - 50}, 500);  		// R
+		$('#f').animate({top:140, left: vw + 50}, 500);  		// O
+		$('#g').animate({top:140, left: vw + 150}, 500);  	// W
+		$('#h').animate({top:140, left: vw + 250}, 500);  	// N
+		$('#i').animate({top:240, left: vw - 450}, 500);  	// D
+		$('#j').animate({top:240, left: vw - 350}, 500);  		// I
+		$('#k').animate({top:240, left: vw - 250}, 500);  		// R
+		$('#l').animate({top:240, left: vw - 150}, 500);  	// G
+		$('#m').animate({top:240, left: vw - 50}, 500);   	// A
+		$('#n').animate({top:240, left: vw + 50}, 500);  	// N
+		$('#o').animate({top:240, left: vw + 150}, 500);  	// T
+		$('#p').animate({top:240, left: vw + 250}, 500);  	// O
+		$('#q').animate({top:240, left: vw + 350}, 500);  	// R
+		$('#r').animate({top:240, left: vw + 450}, 500);  	// O
 		$('.balloons').css('opacity', '0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
